@@ -1,0 +1,536 @@
+/*background css start*/
+.bg1{
+	background-color: #929fca;
+	font-family: "Georgia", serif;
+}
+.bg2{
+	background-color: #f4beb2d9;
+	font-family: "Georgia", serif;
+}
+.bg3{
+	background-color: #f4beb296;
+	font-family: "Georgia", serif;
+}
+
+/*nav-bar css start*/
+.conflu{
+	padding-left: 0px !important; 
+	background-color: #3d4b78 !important;
+}
+
+.navcls{
+	position: relative;
+    top: 40px;
+    font-size: 18px;
+    padding-right: 55px !important;
+    padding-left: 20px !important;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 20px !important;
+    margin-left: 10px;
+}
+
+.nav>li>a:hover {
+    border: 2px solid #f4beb2;
+    background-color: #f4beb2;
+    color: #0e3d6b;
+}
+
+.linkcol{
+	color: #f4beb2 !important;
+	border-radius: 10px;
+}
+
+.linkclr{
+	padding: 8px 20px;
+	color: #f4beb2 !important;
+    background-color: #0e3d6b !important;
+	font-size: 15px;
+	border: 3px solid #f4beb2;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+/*nav-bar css end*/
+
+
+/*slider css start*/
+.sldcls{
+	width: 100% !important;
+	position: relative;
+    top: -25px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.sld2{
+	background-color:#3d4b78;
+  	background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgb(0 0 0 / 31%),
+      #8d807d63 100px, transparent 0px, transparent 200px ,
+      transparent 0px,
+      transparent 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5) 100px,
+      transparent 0px,
+      transparent 200px
+    );
+    height: 500px; 
+    width: 100%;
+}
+
+.sld3{
+	background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(#3d4b78 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #3d4b78;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    height: 500px;
+    width: 100%;
+}
+
+.acls{
+	padding: 12px;
+}
+
+.sldimg2{
+	position: relative;
+    bottom: 397px !important;
+    left: 670px !important;
+    top: -500px !important;
+    height: 500px !important;
+    width: 525px !important;
+}
+
+.lrcls{
+	width: 5% !important;
+	background-image: linear-gradient(to right,rgb(0 0 0 / 0%) 0,rgba(0,0,0,.0001) 100%) !important;
+}
+
+/*slider css end*/
+
+/*about us css start*/
+.concls{
+	height: 250px;
+	position: relative;
+    top: 25px;
+    background-color: #f4beb2;
+}
+
+.abt1{
+	height: 600px; 
+	width: 600px; 
+	background-color: #f4beb2;
+	position: relative;
+    left: 80px;
+}
+
+.abt2{
+	height: 500px; 
+	width: 550px; 
+	background-color: #3d4b78;
+	position: relative;
+    left: 530px;
+    top: -400px;
+}
+
+.abt3{
+	position: relative;
+    top: 50px;
+    left: 40px;
+    color: #01124a;
+    font-weight: bold;
+}
+
+.abt4{
+	position: relative;
+    top: 70px;
+    left: 40px;
+    width: 450px;
+    font-size: 20px;
+    color: #01124a;
+    font-weight: 540;
+}
+
+.abt5{
+	width: 450px;
+    height: 450px;
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+
+.abthead{
+	text-align: center;
+	color: #3d4b78;
+}
+/*about us css end*/
+
+/*Login page css stat*/
+.logoh1{
+	text-align: center;
+	color: #3d4b78;
+	position: relative;
+	top: -10px;
+	font-weight: 15px
+}
+.logbox{
+	width: 400px;
+	height: 420px;
+	background-image: linear-gradient(to bottom, #3d4b78, #3d4b78ba);
+	position: absolute;
+	top: 220px;
+    left: 430px;
+    border: 2px solid #3d4b78;
+    border-radius: 40px;
+    padding: 0px 30px;
+}
+.loglogocls{
+	width: 100px;
+    height: 100px;
+	position: relative;
+	top: -11%;
+	left: 120px;
+}
+
+.logbox label{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #f4beb2;
+}
+.logbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.logbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 2px solid #f4beb2;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #f4beb2;
+	font-size: 15px;
+}
+
+.logbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #f4beb2;
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.logbox a{
+	font-size: 15px;
+	color: #f4beb2;
+}
+/*login form css End*/
+
+/*Register form css begin*/
+.bgreg{
+	/*background-image: url("images/bg1.jpg"); 
+	background-size: cover;
+	border-image-repeat: no-repeat;*/
+
+	font-family: Arial-black;
+	font-size: 15px !important;
+}
+.logbox1{
+	width: 600px;
+	height: 820px;
+	background-image: linear-gradient(to bottom, #3d4b78, #3d4b78ba);
+	position: absolute;
+    top: 230px;
+    left: 335px;
+    border: 2px solid #3d4b78;
+    border-radius: 40px;
+    padding: 0px 30px;
+}
+.logbox1 label{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #f4beb2;
+}
+.loglogocls1{
+	width: 100px;
+    height: 100px;
+	position: relative;
+	top: -6%;
+    left: 220px;
+}
+.logbox1 input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 2px solid #f4beb2;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #f4beb2;
+	font-size: 15px;
+}
+
+.logbox1 input[type="submit"]{
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #f4beb2;
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.logbox1 a{
+	font-size: 15px;
+	color: #f4beb2;
+}
+.logbox1 input[type=radio]{
+    margin: 4px 5px 5px;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.logbox1 input[type=Date]{
+   position: relative;
+   left: 10px;
+   width: 200px;
+}
+/*Register form css end*/
+
+/*specialization css begin*/
+.sp1{
+	/*position: relative;
+	top: 20px;
+	text-align: center;
+	background-color: #f4beb2;
+	width: 200px;*/
+	width: 500px;
+	height: 35px;
+	text-align: center;
+	background-color: #f4beb2;
+	border: 2px solid #3d4b78;
+	/*border-radius: 15px;*/
+	position: relative;
+    top: 20px;
+    left: 390px;
+}
+.sp2{
+	position: relative;
+    top: -23px;
+    font-size: 30px;
+    color: #01124a;
+}
+.prdimg{
+	width: 289px; 
+	height: 268px;
+}
+.des{
+	font-weight: bold;
+	color: #000000;
+	border-bottom: 3px solid #f4beb2;
+}
+.des1{
+	color: #01124a;
+	font-size: 16px;
+}
+
+/*Contact us css begin*/
+.conctcls{
+	position: relative; 
+	top: 100px; 
+	background-color: #f4beb2; 
+	color: #01124a;
+	font-size: 15px;
+}
+.divcls{
+	padding-left: 6px;
+}
+
+/*Contact us css end*/
+
+/*footer css begin*/
+.footer{
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	background-color: #3f3f3f;
+	position: relative;
+    top: 100px;
+}
+/*footer css end*/
+
+/*bread crumb css start*/
+.brd{
+	font-size: 15px; 
+	text-align: center;
+}
+
+/********************
+*****Slide effect
+**********************/
+
+.fade {
+    opacity: 1;
+}
+.fade .item {
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 0 !important;
+    display: block !important;
+    -webkit-transition: opacity ease-in-out 1s;
+    -moz-transition: opacity ease-in-out 1s;
+    -ms-transition: opacity ease-in-out 1s;
+    -o-transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out 1s;
+}
+.fade .item:first-child {
+    top: auto;
+    position: relative;
+}
+.fade .item.active {
+    opacity: 1;
+    z-index: 2;
+    -webkit-transition: opacity ease-in-out 1s;
+    -moz-transition: opacity ease-in-out 1s;
+    -ms-transition: opacity ease-in-out 1s;
+    -o-transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out 1s;
+}
+.fade {
+    opacity: 1;
+}
+.fade .item {
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 0 !important;
+    display: block !important;
+    -webkit-transition: opacity ease-in-out 1s;
+    -moz-transition: opacity ease-in-out 1s;
+    -ms-transition: opacity ease-in-out 1s;
+    -o-transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out 1s;
+}
+.fade .item:first-child {
+    top: auto;
+    position: relative;
+}
+.fade .item.active {
+    opacity: 1;
+    z-index: 2;
+    -webkit-transition: opacity ease-in-out 1s;
+    -moz-transition: opacity ease-in-out 1s;
+    -ms-transition: opacity ease-in-out 1s;
+    -o-transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out 1s;
+}
+/*---------- SLIDE CAPTION ----------*/
+.slide_style_left {
+    text-align: left !important;
+}
+.slide_style_right {
+    text-align: right !important;
+}
+.slide_style_center {
+    text-align: center !important;
+}
+
+.slide-text {
+    left: 0;
+    top: 25%;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    padding: 10px 85px;
+    
+}
+
+.slide-text > h1 {
+    
+    padding: 0;
+    color: #ffffff;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 84px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.slide-text > p {
+    padding: 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+.slide-text > a.btn-default{
+    color: #000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 17px 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+.slide-text > a.btn-primary{
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 17px 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background: #00bfff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.slide-text > a:hover,
+.slide-text > a:active {
+    color: #ffffff;
+    background: #222222;
+    -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+/*slider effect end*/
+

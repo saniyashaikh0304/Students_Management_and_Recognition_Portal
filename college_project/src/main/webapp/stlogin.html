@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bg2">
+
+<!-- Navigation bar Begin -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid conflu">
+    <div class="navbar-header">
+      <img src="images/logo1.jpg" style="height: 120px;width: 200px; background-color: pink">
+    </div>
+    <div class="col-md-10 navcls" style="padding-left: 250px !important; padding-right: 40px !important;">
+    		<ul class="nav navbar-nav">
+      <li class="active"><a href="home1.html" style="background: #f4beb2; color: #3d4b78;">Home</a></li>
+      <li><a href="about.html" class="linkcol">About Us</a></li>
+      <li><a href="contact.html" class="linkcol">Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      	<li><a href="register.html" class="linkclr"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      	<li><a href="stlogin.html" class="linkclr"><span class="glyphicon glyphicon-log-in"></span> Student</a></li>
+        <li><a href="login.html" class="linkclr"><span class="glyphicon glyphicon-log-in"></span> Admin</a></li>
+    </ul>
+    </div>
+  	</div>
+  </div>	
+  </div>
+</nav>
+<!-- Navigation bar End -->
+
+<!-- Login Form begin -->
+	<div>
+		<h1 class="logoh1">Student Login Form</h1>
+	</div>
+	<div class="logbox">
+		<img src="images/login.png" class="loglogocls">
+		<form method="post" action="stlogin.jsp">
+			<label>ID : </label>
+			<input type="text" name="id" placeholder="Enter ID" required="required">
+			<label>Password : </label>
+			<input type="password" name="password" placeholder="Enter Password" required="required">
+			<input type="submit" name="submit" value="Login">
+			<label style="color: #f4beb2; position: relative; left: 50px; top: 10px">Not a Member? <a href="register.html" style="font-size: 20px">Sign Up</a></label>
+		</form>
+	</div>
+	<!-- Form section end -->
+</body>
+</html>
